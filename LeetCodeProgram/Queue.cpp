@@ -1,10 +1,9 @@
-#include "stdafx.h"
 #include "Queue.h"
 
 
-Queue::Queue()
-{
-	Queue q;
+void Queue() {
+
+	MyQueue q;
 	q.enQueue(5);
 	q.enQueue(3);
 	if (!q.isEmpty()) {
@@ -19,5 +18,3 @@ Queue::Queue()
 		cout << q.Front() << endl;
 	}
 }
-
-
